@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <description>Simple tag examples</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>myshortname</short-name>
+    <uri>https://mycompany.com/sample</uri>
+
+    <!-- Invoke 'Generate' action to add tags or functions -->
+    <tag>
+        <name>firstTag</name>
+        <tag-class>com.mytag.MyFirstTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <description>Compute Square Root</description>
+        <name>sqrt</name>
+        <tag-class>com.mytag.MathTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>x</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+</taglib>
