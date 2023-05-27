@@ -13,6 +13,11 @@
         <module>listenter-demo</module>
         <module>security-demo</module>
         <module>ajax-demo</module>
+        <module>servlet-demo</module>
+        <module>jsp.demo</module>
+        <module>session-demo</module>
+        <module>database-demo</module>
+        <module>expression-demo</module>
     </modules>
     <dependencies>
         <dependency>

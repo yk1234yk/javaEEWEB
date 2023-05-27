@@ -4,6 +4,7 @@
     <option name="state">
       <map>
         <entry key="file://$PROJECT_DIR$/ajax-demo/src/main/webapp/customerList.html" value="file://$PROJECT_DIR$/ajax-demo/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jsp.demo/src/main/webapp/display-product.jsp" value="file://$PROJECT_DIR$/jsp.demo/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/security-demo/src/main/webapp/login.jsp" value="file://$PROJECT_DIR$/security-demo/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/taglib-demo/src/main/webapp/my-first-tag.jsp" value="file://$PROJECT_DIR$/taglib-demo/src/main/webapp" />
       </map>

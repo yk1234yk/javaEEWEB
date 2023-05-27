@@ -3,8 +3,13 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ajax-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/database-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/expression-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/jsp.demo" />
     <file type="web" url="file://$PROJECT_DIR$/listenter-demo" />
     <file type="web" url="file://$PROJECT_DIR$/security-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/servlet-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/session-demo" />
     <file type="web" url="file://$PROJECT_DIR$/taglib-demo" />
   </component>
   <component name="MavenProjectsManager">

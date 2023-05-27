@@ -41,7 +41,7 @@
     </script>
 </head>
 <body>
-<form action="register.action" method="post">
+<form action="${pageContext.request.contextPath}/validation.do" method="post">
     <p>个人用户注册</p>
     <table>
         <tr>

@@ -23,7 +23,7 @@ public class CustomerListServlet extends HttpServlet {
         sendResponse(response, xml.toString());
     }
 
-    protected void deleteCustomer(HttpServletResponse response, HttpServletRequest request) throws Exception {
+    protected void deleteCustomer(HttpServletRequest request, HttpServletResponse response) throws Exception {
         String id = request.getParameter("id");
 //        可将客户从数据库中删除
         //创建响应XML
@@ -35,14 +35,14 @@ public class CustomerListServlet extends HttpServlet {
     }
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String action = req.getParameter("action");
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {
+        String action = request.getParameter("action");
         try {
             if (action.equals("add")) {
-                addCustomer(req, resp);
+                addCustomer(request, response);
 
             } else if (action.equals("delete")) {
-                deleteCustomer(resp, req);
+                deleteCustomer(request, response);
             }
         } catch (Exception e) {
             e.printStackTrace();

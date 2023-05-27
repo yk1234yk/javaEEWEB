@@ -6,9 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="expression-demo" />
+        <module name="database-demo" />
+        <module name="ajax-demo" />
+        <module name="jsp.demo" />
+        <module name="session-demo" />
         <module name="taglib-demo" />
         <module name="listenter-demo" />
-        <module name="ajax-demo" />
+        <module name="servlet-demo" />
         <module name="security-demo" />
       </profile>
     </annotationProcessing>
@@ -17,8 +22,13 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ajax-demo" options="" />
+      <module name="database-demo" options="" />
+      <module name="expression-demo" options="" />
+      <module name="jsp.demo" options="" />
       <module name="listenter-demo" options="" />
       <module name="security-demo" options="" />
+      <module name="servlet-demo" options="" />
+      <module name="session-demo" options="" />
       <module name="taglib-demo" options="" />
     </option>
   </component>
